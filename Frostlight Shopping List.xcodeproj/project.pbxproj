@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D10D625F4E1C2B4CDD2AA42 /* Pods_Frostlight_Shopping_ListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AE4768BD60529DD88EA889 /* Pods_Frostlight_Shopping_ListTests.framework */; };
+		9E182C0B992D9C1494660FF9 /* Pods_Frostlight_Shopping_List.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2138138E069160DE845C1D4A /* Pods_Frostlight_Shopping_List.framework */; };
+		BF19714B1FAE4F0E0037E0BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19714A1FAE4F0E0037E0BE /* AppDelegate.swift */; };
+		BF19714D1FAE4F0E0037E0BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19714C1FAE4F0E0037E0BE /* ViewController.swift */; };
+		BF1971501FAE4F0E0037E0BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF19714E1FAE4F0E0037E0BE /* Main.storyboard */; };
+		BF1971521FAE4F0E0037E0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1971511FAE4F0E0037E0BE /* Assets.xcassets */; };
+		BF1971551FAE4F0E0037E0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1971531FAE4F0E0037E0BE /* LaunchScreen.storyboard */; };
+		BF1971601FAE4F0E0037E0BE /* Frostlight_Shopping_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19715F1FAE4F0E0037E0BE /* Frostlight_Shopping_ListTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF19715C1FAE4F0E0037E0BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF19713F1FAE4F0E0037E0BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1971461FAE4F0E0037E0BE;
+			remoteInfo = "Frostlight Shopping List";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01884705510D5AF012AEE636 /* Pods-Frostlight Shopping ListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frostlight Shopping ListTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frostlight Shopping ListTests/Pods-Frostlight Shopping ListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2138138E069160DE845C1D4A /* Pods_Frostlight_Shopping_List.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frostlight_Shopping_List.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2337133391799F61182E2775 /* Pods-Frostlight Shopping List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frostlight Shopping List.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frostlight Shopping List/Pods-Frostlight Shopping List.debug.xcconfig"; sourceTree = "<group>"; };
+		24AE4768BD60529DD88EA889 /* Pods_Frostlight_Shopping_ListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frostlight_Shopping_ListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCDF7727201716F64441819 /* Pods-Frostlight Shopping ListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frostlight Shopping ListTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frostlight Shopping ListTests/Pods-Frostlight Shopping ListTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF1971471FAE4F0E0037E0BE /* Frostlight Shopping List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frostlight Shopping List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF19714A1FAE4F0E0037E0BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF19714C1FAE4F0E0037E0BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF19714F1FAE4F0E0037E0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF1971511FAE4F0E0037E0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF1971541FAE4F0E0037E0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF1971561FAE4F0E0037E0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF19715B1FAE4F0E0037E0BE /* Frostlight Shopping ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frostlight Shopping ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF19715F1FAE4F0E0037E0BE /* Frostlight_Shopping_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frostlight_Shopping_ListTests.swift; sourceTree = "<group>"; };
+		BF1971611FAE4F0E0037E0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E7E8E1F7858CF83E0FEEA8 /* Pods-Frostlight Shopping List.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frostlight Shopping List.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frostlight Shopping List/Pods-Frostlight Shopping List.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1971441FAE4F0E0037E0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E182C0B992D9C1494660FF9 /* Pods_Frostlight_Shopping_List.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1971581FAE4F0E0037E0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D10D625F4E1C2B4CDD2AA42 /* Pods_Frostlight_Shopping_ListTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63ABC2DE3E3CD1AAF4FE460C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2138138E069160DE845C1D4A /* Pods_Frostlight_Shopping_List.framework */,
+				24AE4768BD60529DD88EA889 /* Pods_Frostlight_Shopping_ListTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF19713E1FAE4F0E0037E0BE = {
+			isa = PBXGroup;
+			children = (
+				BF1971491FAE4F0E0037E0BE /* Frostlight Shopping List */,
+				BF19715E1FAE4F0E0037E0BE /* Frostlight Shopping ListTests */,
+				BF1971481FAE4F0E0037E0BE /* Products */,
+				C7D260078770B4727256EF73 /* Pods */,
+				63ABC2DE3E3CD1AAF4FE460C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1971481FAE4F0E0037E0BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1971471FAE4F0E0037E0BE /* Frostlight Shopping List.app */,
+				BF19715B1FAE4F0E0037E0BE /* Frostlight Shopping ListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1971491FAE4F0E0037E0BE /* Frostlight Shopping List */ = {
+			isa = PBXGroup;
+			children = (
+				BF19714A1FAE4F0E0037E0BE /* AppDelegate.swift */,
+				BF19714C1FAE4F0E0037E0BE /* ViewController.swift */,
+				BF19714E1FAE4F0E0037E0BE /* Main.storyboard */,
+				BF1971511FAE4F0E0037E0BE /* Assets.xcassets */,
+				BF1971531FAE4F0E0037E0BE /* LaunchScreen.storyboard */,
+				BF1971561FAE4F0E0037E0BE /* Info.plist */,
+			);
+			path = "Frostlight Shopping List";
+			sourceTree = "<group>";
+		};
+		BF19715E1FAE4F0E0037E0BE /* Frostlight Shopping ListTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF19715F1FAE4F0E0037E0BE /* Frostlight_Shopping_ListTests.swift */,
+				BF1971611FAE4F0E0037E0BE /* Info.plist */,
+			);
+			path = "Frostlight Shopping ListTests";
+			sourceTree = "<group>";
+		};
+		C7D260078770B4727256EF73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2337133391799F61182E2775 /* Pods-Frostlight Shopping List.debug.xcconfig */,
+				F9E7E8E1F7858CF83E0FEEA8 /* Pods-Frostlight Shopping List.release.xcconfig */,
+				01884705510D5AF012AEE636 /* Pods-Frostlight Shopping ListTests.debug.xcconfig */,
+				4DCDF7727201716F64441819 /* Pods-Frostlight Shopping ListTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1971461FAE4F0E0037E0BE /* Frostlight Shopping List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1971641FAE4F0E0037E0BE /* Build configuration list for PBXNativeTarget "Frostlight Shopping List" */;
+			buildPhases = (
+				7583661F3531B980504FBBCF /* [CP] Check Pods Manifest.lock */,
+				BF1971431FAE4F0E0037E0BE /* Sources */,
+				BF1971441FAE4F0E0037E0BE /* Frameworks */,
+				BF1971451FAE4F0E0037E0BE /* Resources */,
+				4C53C83D7A11B9A151FE937E /* [CP] Embed Pods Frameworks */,
+				38FED0498D45505078A24767 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frostlight Shopping List";
+			productName = "Frostlight Shopping List";
+			productReference = BF1971471FAE4F0E0037E0BE /* Frostlight Shopping List.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF19715A1FAE4F0E0037E0BE /* Frostlight Shopping ListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1971671FAE4F0E0037E0BE /* Build configuration list for PBXNativeTarget "Frostlight Shopping ListTests" */;
+			buildPhases = (
+				1A11B33D426B62D68540AEE4 /* [CP] Check Pods Manifest.lock */,
+				BF1971571FAE4F0E0037E0BE /* Sources */,
+				BF1971581FAE4F0E0037E0BE /* Frameworks */,
+				BF1971591FAE4F0E0037E0BE /* Resources */,
+				7883AFFD07D631340D6BEF6E /* [CP] Embed Pods Frameworks */,
+				79E75BF442F0C860162F9C87 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF19715D1FAE4F0E0037E0BE /* PBXTargetDependency */,
+			);
+			name = "Frostlight Shopping ListTests";
+			productName = "Frostlight Shopping ListTests";
+			productReference = BF19715B1FAE4F0E0037E0BE /* Frostlight Shopping ListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF19713F1FAE4F0E0037E0BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Frostlight;
+				TargetAttributes = {
+					BF1971461FAE4F0E0037E0BE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BF19715A1FAE4F0E0037E0BE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF1971461FAE4F0E0037E0BE;
+					};
+				};
+			};
+			buildConfigurationList = BF1971421FAE4F0E0037E0BE /* Build configuration list for PBXProject "Frostlight Shopping List" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF19713E1FAE4F0E0037E0BE;
+			productRefGroup = BF1971481FAE4F0E0037E0BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1971461FAE4F0E0037E0BE /* Frostlight Shopping List */,
+				BF19715A1FAE4F0E0037E0BE /* Frostlight Shopping ListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1971451FAE4F0E0037E0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1971551FAE4F0E0037E0BE /* LaunchScreen.storyboard in Resources */,
+				BF1971521FAE4F0E0037E0BE /* Assets.xcassets in Resources */,
+				BF1971501FAE4F0E0037E0BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1971591FAE4F0E0037E0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A11B33D426B62D68540AEE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Frostlight Shopping ListTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38FED0498D45505078A24767 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frostlight Shopping List/Pods-Frostlight Shopping List-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C53C83D7A11B9A151FE937E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frostlight Shopping List/Pods-Frostlight Shopping List-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7583661F3531B980504FBBCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Frostlight Shopping List-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7883AFFD07D631340D6BEF6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frostlight Shopping ListTests/Pods-Frostlight Shopping ListTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E75BF442F0C860162F9C87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frostlight Shopping ListTests/Pods-Frostlight Shopping ListTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1971431FAE4F0E0037E0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF19714D1FAE4F0E0037E0BE /* ViewController.swift in Sources */,
+				BF19714B1FAE4F0E0037E0BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1971571FAE4F0E0037E0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1971601FAE4F0E0037E0BE /* Frostlight_Shopping_ListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF19715D1FAE4F0E0037E0BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF1971461FAE4F0E0037E0BE /* Frostlight Shopping List */;
+			targetProxy = BF19715C1FAE4F0E0037E0BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF19714E1FAE4F0E0037E0BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF19714F1FAE4F0E0037E0BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF1971531FAE4F0E0037E0BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1971541FAE4F0E0037E0BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF1971621FAE4F0E0037E0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF1971631FAE4F0E0037E0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF1971651FAE4F0E0037E0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2337133391799F61182E2775 /* Pods-Frostlight Shopping List.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M822S4TQNS;
+				INFOPLIST_FILE = "Frostlight Shopping List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frostlight.Frostlight-Shopping-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF1971661FAE4F0E0037E0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E7E8E1F7858CF83E0FEEA8 /* Pods-Frostlight Shopping List.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M822S4TQNS;
+				INFOPLIST_FILE = "Frostlight Shopping List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frostlight.Frostlight-Shopping-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF1971681FAE4F0E0037E0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01884705510D5AF012AEE636 /* Pods-Frostlight Shopping ListTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M822S4TQNS;
+				INFOPLIST_FILE = "Frostlight Shopping ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frostlight.Frostlight-Shopping-ListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frostlight Shopping List.app/Frostlight Shopping List";
+			};
+			name = Debug;
+		};
+		BF1971691FAE4F0E0037E0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DCDF7727201716F64441819 /* Pods-Frostlight Shopping ListTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M822S4TQNS;
+				INFOPLIST_FILE = "Frostlight Shopping ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frostlight.Frostlight-Shopping-ListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frostlight Shopping List.app/Frostlight Shopping List";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1971421FAE4F0E0037E0BE /* Build configuration list for PBXProject "Frostlight Shopping List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1971621FAE4F0E0037E0BE /* Debug */,
+				BF1971631FAE4F0E0037E0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1971641FAE4F0E0037E0BE /* Build configuration list for PBXNativeTarget "Frostlight Shopping List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1971651FAE4F0E0037E0BE /* Debug */,
+				BF1971661FAE4F0E0037E0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1971671FAE4F0E0037E0BE /* Build configuration list for PBXNativeTarget "Frostlight Shopping ListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1971681FAE4F0E0037E0BE /* Debug */,
+				BF1971691FAE4F0E0037E0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF19713F1FAE4F0E0037E0BE /* Project object */;
+}
