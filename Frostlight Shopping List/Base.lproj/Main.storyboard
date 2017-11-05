@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter an item name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kpR-pr-qtB">
-                                <rect key="frame" x="16" y="73" width="202" height="40"/>
+                                <rect key="frame" x="16" y="73" width="193.5" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Ckn-Xd-kpy"/>
                                 </constraints>
@@ -36,13 +37,12 @@
                                     <constraint firstAttribute="width" constant="40" id="2Xl-Dw-ZLm"/>
                                     <constraint firstAttribute="height" constant="40" id="e08-qy-SaJ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <state key="normal" title="+"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X3D-6s-I5x">
-                                <rect key="frame" x="226" y="73" width="85" height="40"/>
+                                <rect key="frame" x="217.5" y="73" width="93.5" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="85" id="Qdj-nQ-aYF"/>
                                     <constraint firstAttribute="height" constant="40" id="eWT-DW-j1D"/>
                                 </constraints>
                                 <nil key="textColor"/>
@@ -55,6 +55,7 @@
                             <constraint firstItem="X3D-6s-I5x" firstAttribute="leading" secondItem="kpR-pr-qtB" secondAttribute="trailing" constant="8" id="61I-Yx-FWh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="crB-fO-ZcN" secondAttribute="trailing" constant="16" id="6cL-x0-fzU"/>
                             <constraint firstItem="akH-xc-as9" firstAttribute="leading" secondItem="X3D-6s-I5x" secondAttribute="trailing" constant="8" id="C6O-5e-pzc"/>
+                            <constraint firstItem="X3D-6s-I5x" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.25" id="FjO-vD-hNI"/>
                             <constraint firstItem="kpR-pr-qtB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="Kai-v1-Ivd"/>
                             <constraint firstItem="X3D-6s-I5x" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="Msv-0u-jwX"/>
                             <constraint firstItem="kpR-pr-qtB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WTS-Ez-ZE6"/>
