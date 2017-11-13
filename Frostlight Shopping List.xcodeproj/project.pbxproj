@@ -10,7 +10,7 @@
 		8D10D625F4E1C2B4CDD2AA42 /* Pods_Frostlight_Shopping_ListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AE4768BD60529DD88EA889 /* Pods_Frostlight_Shopping_ListTests.framework */; };
 		9E182C0B992D9C1494660FF9 /* Pods_Frostlight_Shopping_List.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2138138E069160DE845C1D4A /* Pods_Frostlight_Shopping_List.framework */; };
 		BF19714B1FAE4F0E0037E0BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19714A1FAE4F0E0037E0BE /* AppDelegate.swift */; };
-		BF19714D1FAE4F0E0037E0BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19714C1FAE4F0E0037E0BE /* ViewController.swift */; };
+		BF19714D1FAE4F0E0037E0BE /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19714C1FAE4F0E0037E0BE /* ListViewController.swift */; };
 		BF1971501FAE4F0E0037E0BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF19714E1FAE4F0E0037E0BE /* Main.storyboard */; };
 		BF1971521FAE4F0E0037E0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1971511FAE4F0E0037E0BE /* Assets.xcassets */; };
 		BF1971551FAE4F0E0037E0BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1971531FAE4F0E0037E0BE /* LaunchScreen.storyboard */; };
@@ -35,7 +35,7 @@
 		4DCDF7727201716F64441819 /* Pods-Frostlight Shopping ListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frostlight Shopping ListTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frostlight Shopping ListTests/Pods-Frostlight Shopping ListTests.release.xcconfig"; sourceTree = "<group>"; };
 		BF1971471FAE4F0E0037E0BE /* Frostlight Shopping List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frostlight Shopping List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF19714A1FAE4F0E0037E0BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF19714C1FAE4F0E0037E0BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF19714C1FAE4F0E0037E0BE /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		BF19714F1FAE4F0E0037E0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF1971511FAE4F0E0037E0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF1971541FAE4F0E0037E0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				BF19714A1FAE4F0E0037E0BE /* AppDelegate.swift */,
-				BF19714C1FAE4F0E0037E0BE /* ViewController.swift */,
+				BF19714C1FAE4F0E0037E0BE /* ListViewController.swift */,
 				BF19714E1FAE4F0E0037E0BE /* Main.storyboard */,
 				BF1971511FAE4F0E0037E0BE /* Assets.xcassets */,
 				BF1971531FAE4F0E0037E0BE /* LaunchScreen.storyboard */,
@@ -336,7 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF19714D1FAE4F0E0037E0BE /* ViewController.swift in Sources */,
+				BF19714D1FAE4F0E0037E0BE /* ListViewController.swift in Sources */,
 				BF19714B1FAE4F0E0037E0BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

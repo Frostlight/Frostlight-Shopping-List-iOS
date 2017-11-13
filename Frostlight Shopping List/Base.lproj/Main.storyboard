@@ -14,7 +14,7 @@
         <!--Frostlight Shopping List-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Frostlight_Shopping_List" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ListViewController" customModule="Frostlight_Shopping_List" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -36,6 +36,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="addItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Veh-be-qcM"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X3D-6s-I5x">
                                 <rect key="frame" x="217.5" y="73" width="93.5" height="40"/>
@@ -44,7 +47,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DrP-tP-1lf">
                                 <rect key="frame" x="0.0" y="121" width="375" height="546"/>
@@ -72,6 +75,11 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="edit" id="aLC-Ed-739"/>
                         <barButtonItem key="rightBarButtonItem" title="Sort" id="Mse-Rp-zDQ"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="itemName" destination="kpR-pr-qtB" id="ogF-VC-xOO"/>
+                        <outlet property="itemQuantity" destination="X3D-6s-I5x" id="qAl-4G-Ch3"/>
+                        <outlet property="shoppingListTableView" destination="DrP-tP-1lf" id="dhp-jV-str"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
